@@ -11,20 +11,29 @@
 			<!-- <h1>Title here</h1> -->
 			<ul>
 				<li><a href="#">Home</a></li>
-				<li><a href="#">Game Design</a></li>
-				<li><a href="#">Emulator Programming</a></li>
-				<li><a href="#">Other Projects</a></li>
+				<li><a href="#game-design">Game Design</a></li>
+				<li><a href="#emulator-programming">Emulator Programming</a></li>
+				<li><a href="#other-projects">Other Projects</a></li>
 			</ul>
 		</nav>
 	
 		<main>
 			<aside>
-				Sidebar info goes here
+				<h2>Sidebar info</h2>
+				<p>Maybe a profile img</p>
+				<p>Short Bio here...</p>
+				<p>Some links</p>
 			</aside>
 			
-			<section>
-				<div class="game-projects">
+			<div id="content">
+				<span class="anchor" id="game-design"></span>
+				<section>
 					<h1>Game Design</h1>
+					<article>
+						<p>Runner project</p>
+						<h2>Add image here</h2>
+						<h3>Description goes here</h3>
+					</article>
 					<article>
 						<p>AI bit on Project-Zer0</p>
 						<h2>Add image here</h2>
@@ -40,18 +49,24 @@
 						<h2>Add image here</h2>
 						<h3>Description goes here</h3>
 					</article>
-				</div>
+				</section>
 				
-				<div class="emulator-projects">
+				<span class="anchor" id="emulator-programming"></span>
+				<section>
 					<h1>Emulator Programming</h1>
 					<article>
-						<p>8Chips</p>
-						<h2>Add image here</h2>
-						<h3>Description goes here</h3>
+						<h2><a href="#">8Chips</a></h2>
+						<div class="thumbnail">
+							<a href="#">
+								<img src="./img/8Chips/thumbnail.png" alt="8Chips thumbnail" />
+							</a>
+						</div>
+						<p>8Chips is my first attempt to create an emulator. It is written in C++ using SDL2 graphics library.</p>
 					</article>
-				</div>
+				</section>
 			
-				<div class="other-projects">
+				<span class="anchor" id="other-projects"></span>
+				<section>
 					<h1>Other Projects</h1>
 					<article>
 						<p>MEGU Autosplitter</p>
@@ -63,8 +78,8 @@
 						<h2>Add image here</h2>
 						<h3>A Discord.js Bot (description)</h3>
 					</article>
-				</div>
-			</section>
+				</section>
+			</div>
 		</main>
 		
 		<footer>
