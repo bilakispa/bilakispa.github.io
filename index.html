@@ -1,90 +1,167 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Home | bilakispa.github.io</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+	
+		<title>bilakispa.github.io</title>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 		<link href='./css/style.css' type='text/css' rel='stylesheet' />
+		
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|VT323" rel="stylesheet">
 	</head>
 
 	<body>
-		<nav>
-			<!-- <h1>Title here</h1> -->
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#game-design">Game Design</a></li>
-				<li><a href="#emulator-programming">Emulator Programming</a></li>
-				<li><a href="#other-projects">Other Projects</a></li>
-			</ul>
-		</nav>
-	
-		<main>
-			<aside>
-				<h2>Sidebar info</h2>
-				<p>Maybe a profile img</p>
-				<p>Short Bio here...</p>
-				<p>Some links</p>
-			</aside>
-			
-			<div id="content">
-				<span class="anchor" id="game-design"></span>
-				<section>
-					<h1>Game Design</h1>
-					<article>
-						<p>Runner project</p>
-						<h2>Add image here</h2>
-						<h3>Description goes here</h3>
-					</article>
-					<article>
-						<p>AI bit on Project-Zer0</p>
-						<h2>Add image here</h2>
-						<h3>Description goes here</h3>
-					</article>
-					<article>
-						<p>AI bit on Project-Fries</p>
-						<h2>Add image here</h2>
-						<h3>Description goes here</h3>
-					</article>
-					<article>
-						<p>3d models?</p>
-						<h2>Add image here</h2>
-						<h3>Description goes here</h3>
-					</article>
-				</section>
-				
-				<span class="anchor" id="emulator-programming"></span>
-				<section>
-					<h1>Emulator Programming</h1>
-					<article>
-						<h2><a href="#">8Chips</a></h2>
-						<div class="thumbnail">
-							<a href="#">
-								<img src="./img/8Chips/thumbnail.png" alt="8Chips thumbnail" />
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="#">Start Bootstrap</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home
+								<span class="sr-only">(current)</span>
 							</a>
-						</div>
-						<p>8Chips is my first attempt to create an emulator. It is written in C++ using SDL2 graphics library.</p>
-					</article>
-				</section>
-			
-				<span class="anchor" id="other-projects"></span>
-				<section>
-					<h1>Other Projects</h1>
-					<article>
-						<p>MEGU Autosplitter</p>
-						<h2>Add image here</h2>
-						<h3>Description goes here</h3>
-					</article>
-					<article>
-						<p>SilverGuard</p>
-						<h2>Add image here</h2>
-						<h3>A Discord.js Bot (description)</h3>
-					</article>
-				</section>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#game-design">Game Design</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#emulator-programming">Emulator Programming</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#other-projects">Other Projects</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-		</main>
+		</nav>
 		
-		<footer>
-			<p>Copyright &copy; 2017, Footer test.</p>
+		<div class="container">
+			<!-- Insert Profile Jumbotron here -->
+			
+			<div class="row" id="game-design">
+				<div class="col-12">
+					<h1 class="text-center">Game Design</h1>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 portfolio-item">
+					<div class="card h-100">
+						<h5 class="card-header text-center">
+							<a href="#">Runner project</a>
+						</h5>
+						<a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+						<div class="card-body">
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 portfolio-item">
+					<div class="card h-100">
+						<h5 class="card-header text-center">
+							<a href="#">Runner project</a>
+						</h5>
+						<a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+						<div class="card-body">
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 portfolio-item">
+					<div class="card h-100">
+						<h5 class="card-header text-center">
+							<a href="#">Runner project</a>
+						</h5>					
+						<a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+						<div class="card-body">
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 portfolio-item">
+					<div class="card h-100">
+						<h5 class="card-header text-center">
+							<a href="#">Runner project</a>
+						</h5>
+						<a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+						<div class="card-body">
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row" id="emulator-programming">
+				<div class="col-12">
+					<h1 class="text-center">Emulator Programming</h1>
+				</div>
+				
+				<div class="col-lg-4 col-sm-6 portfolio-item">
+					<div class="card h-100">
+						<h5 class="card-header text-center">
+							<a href="#">8Chips</a>
+						</h5>
+						<a href="#"><img class="card-img-top" src="./img/8Chips/thumbnail.png" alt="8Chips thumbnail"></a>
+						<div class="card-body">
+							<p class="card-text"><small>8Chips is my first attempt to create an emulator. It is written in C++ using SDL2 multimedia library.</small></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row" id="emulator-programming">
+				<div class="col-12">
+					<h1 class="text-center">Other Projects</h1>
+				</div>
+				
+				<div class="col-lg-4 col-sm-6 portfolio-item">
+					<div class="card h-100">
+						<h5 class="card-header text-center">
+							<a href="#">MEGU Autosplitter</a>
+						</h5>
+						<a href="#"><img class="card-img-top" src="http://placehold.it/600x400" alt="8Chips thumbnail"></a>
+						<div class="card-body">
+							<p class="card-text"><small>A speedrunning tool, it's a script used for auto-splitting / load time removal with LiveSplit timer.</small></p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-4 col-sm-6 portfolio-item">
+					<div class="card h-100">
+						<h5 class="card-header text-center">
+							<a href="#">SilverGuard</a>
+						</h5>
+						<a href="#"><img class="card-img-top" src="http://placehold.it/600x400" alt="8Chips thumbnail"></a>
+						<div class="card-body">
+							<p class="card-text"><small>A Discord.js bot used at MEGU's Discord group.</small></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer class="py-4 bg-dark">
+			<div class="container">
+				<p class="m-0 text-center text-white">Copyright &copy; 2017, Footer test.</p>
+			</div>
 		</footer>
 
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
+			integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+			crossorigin="anonymous"></script>
 	</body>
 </html>
